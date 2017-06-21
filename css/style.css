@@ -1,0 +1,69 @@
+/*
+
+<link rel="stylesheet" href="css/style.css" media="screen" charset="utf-8">
+
+*/
+
+tr.details{
+  cursor: pointer;
+}
+img{
+  height:200px;
+}
+label > input{
+  visibility: hidden;
+  position: absolute;
+  }
+  label > input + img{
+  cursor:pointer;
+  border:2px solid transparent;
+}
+label > input:checked + img ~.after{
+  border:2px solid rgb(7, 199, 49);
+  display: block;
+  background: rgba(0, 0, 0, .6);
+}
+span{
+  padding-right:5px;
+}
+label{
+  margin: 7px;
+}
+#main{
+  margin-top: 21px;
+}
+
+#cancel_div{
+  margin-top: 10px;
+}
+.image-cont {
+    position: relative;
+    display: inline-block;
+}
+.image-cont .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+    text-align: center;
+    cursor: pointer;
+}
+.sum{
+  text-align: right;
+}
+.hidden {
+  display: none;
+}
+.selected{
+  background-color: rgb(113, 113, 113);
+  color: rgb(255, 255, 255);
+}
+
+img.mini_img{
+  width:100px !important;
+  height: 88px !important;
+
+}
